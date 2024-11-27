@@ -4,37 +4,42 @@
     <meta charset="utf-8">
     <style> 
      @keyframes anforh2 {
-       0%{ color: red；}
-       20%{ color: orange；}
-       40%{ color: #ffcc00；}
-       60%{ color: green；}
-       80%{ color: biue；}
-       100%{ color: purpie；}
-     }
-      .title{
-        animatian-name: anforh2;
-        animatian-duration: 5s;
-        animatian-iteration-count:infinite;
-        fout-size:3vw;
-        text-shadow: 2px 2px 4px #000000;
-      }
-      body{
-        border:10px ridge;
-        padding:20px;
-      }
-       @keyframes anforh{
-         from{border-radius: 0%;}
-        to{border-radius: 100%;}
-       }
-      .anph1{
-        width:60%;
-        height:auto;
-      }
-      .anph1:hover{
-        animatian-name: anforh2;
-        animatian-duration: 1s;
-        animatian-iteration-count:infinite;  
-      }
+      0% { color: red; }
+      20% { color: orange; }
+      40% { color: #ffcc00; }
+      60% { color: green; }
+      80% { color: blue; }
+      100% { color: purple; }
+    }
+    
+    .title {
+      animation-name: anforh2; 
+      animation-duration: 5s;
+      animation-iteration-count: infinite; 
+      font-size: 3vw; 
+      text-shadow: 2px 2px 4px #000000;
+    }
+    
+    body {
+      border: 10px ridge;  /* 邊框樣式 */
+      padding: 20px;        /* 內邊距 */
+    }
+    
+    @keyframes anforh {
+      from { border-radius: 0%; }
+      to { border-radius: 100%; }
+    }
+    
+    .anph1 {
+      width: 60%;
+      height: auto;
+    }
+    
+    .anph1:hover {
+      animation-name: anforh; 
+      animation-duration: 1s; 
+      animation-iteration-count: infinite; 
+    }
   </style>  
  </head> 
   <body style="background-color: #666600;">
